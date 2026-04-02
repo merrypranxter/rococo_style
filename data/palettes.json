@@ -1,0 +1,101 @@
+[
+  {
+    "id": "powder_blue",
+    "name": "Powder blue",
+    "hex": "#B5C7D3",
+    "role": "base",
+    "value_key": "light_mid",
+    "notes": "Primary Rococo blue; used for walls, sky, silk upholstery, and dress fabric.",
+    "cooccurring_palettes": ["cream_pearl", "blush_rose", "gilded_gold"]
+  },
+  {
+    "id": "blush_rose",
+    "name": "Blush rose",
+    "hex": "#E7BFC4",
+    "role": "base",
+    "value_key": "light",
+    "notes": "Soft pink; dresses, ribbons, upholstery, boudoir walls. Associated with Boucher's palette.",
+    "cooccurring_palettes": ["powder_blue", "cream_pearl", "gilded_gold"]
+  },
+  {
+    "id": "celadon_mint",
+    "name": "Celadon mint",
+    "hex": "#D0E0D0",
+    "role": "accent",
+    "value_key": "light",
+    "notes": "Cool green accent; used in textiles, porcelain, garden-adjacent scenes.",
+    "cooccurring_palettes": ["cream_pearl", "powder_blue", "pale_yellow"]
+  },
+  {
+    "id": "cream_pearl",
+    "name": "Cream pearl",
+    "hex": "#F6F1E7",
+    "role": "base",
+    "value_key": "lightest",
+    "notes": "Neutral ground; boiserie panel fields, plasterwork, lace, background walls.",
+    "cooccurring_palettes": ["gilded_gold", "powder_blue", "blush_rose"]
+  },
+  {
+    "id": "pale_yellow",
+    "name": "Pale yellow",
+    "hex": "#F5EFC0",
+    "role": "accent",
+    "value_key": "light",
+    "notes": "Warm light accent; silk, candle-lit interior warmth, sky at dawn in ceiling frescoes.",
+    "cooccurring_palettes": ["cream_pearl", "blush_rose", "gilded_gold"]
+  },
+  {
+    "id": "gilded_gold",
+    "name": "Gilded gold",
+    "hex": "#D4AF37",
+    "role": "metallic_accent",
+    "value_key": "mid",
+    "notes": "Gold leaf and gilded bronze; frames, mirror surrounds, furniture mounts, stucco highlights. Used selectively.",
+    "cooccurring_palettes": ["cream_pearl", "powder_blue", "blush_rose"]
+  },
+  {
+    "id": "ivory_white",
+    "name": "Ivory white",
+    "hex": "#FFFFF0",
+    "role": "base",
+    "value_key": "lightest",
+    "notes": "Pure white variant for stucco, painted boiserie, and plaster ceiling fields.",
+    "cooccurring_palettes": ["gilded_gold", "powder_blue", "cream_pearl"]
+  },
+  {
+    "id": "dusty_lavender",
+    "name": "Dusty lavender",
+    "hex": "#C9C0D3",
+    "role": "accent",
+    "value_key": "light_mid",
+    "notes": "Soft violet-grey; used in silk and textile accents, secondary drapery colors.",
+    "cooccurring_palettes": ["powder_blue", "cream_pearl", "blush_rose"]
+  },
+  {
+    "id": "soft_sage",
+    "name": "Soft sage",
+    "hex": "#B2C2A8",
+    "role": "accent",
+    "value_key": "light_mid",
+    "notes": "Muted garden green; foliage in pastoral and fête galante scenes.",
+    "cooccurring_palettes": ["celadon_mint", "cream_pearl", "pale_yellow"]
+  },
+  {
+    "id": "warm_terracotta_light",
+    "name": "Warm terracotta light",
+    "hex": "#E8C9A0",
+    "role": "accent",
+    "value_key": "mid",
+    "notes": "Warm skin tone base and architectural warmth in candlelit salon scenes.",
+    "cooccurring_palettes": ["cream_pearl", "gilded_gold", "blush_rose"]
+  },
+  {
+    "id": "sky_fresco_blue",
+    "name": "Sky fresco blue",
+    "hex": "#C8DCF0",
+    "role": "background",
+    "value_key": "light",
+    "notes": "Bright pale blue for open sky in ceiling frescoes and trompe-l'œil sky openings.",
+    "cooccurring_palettes": ["ivory_white", "cream_pearl", "pale_yellow"]
+  }
+]

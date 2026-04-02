@@ -1,0 +1,142 @@
+[
+  {
+    "id": "q01",
+    "section": "Curve and Ornament",
+    "prompt": "C- and S-curves dominate the ornament field; no long straight lines in ornamental zones.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q02",
+    "section": "Curve and Ornament",
+    "prompt": "Rocaille or shell-scroll motifs are present and structurally integrated into the composition.",
+    "score_range": [0, 2],
+    "critical_failure": true
+  },
+  {
+    "id": "q03",
+    "section": "Curve and Ornament",
+    "prompt": "Asymmetry is present in motif placement, composition, or figure arrangement.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q04",
+    "section": "Curve and Ornament",
+    "prompt": "Ornament density is appropriate: high in frame/edge zones, lower in picture fields.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q05",
+    "section": "Palette and Light",
+    "prompt": "Palette is soft pastel with gold or ivory accents; no heavy jewel tones dominating.",
+    "score_range": [0, 2],
+    "critical_failure": true
+  },
+  {
+    "id": "q06",
+    "section": "Palette and Light",
+    "prompt": "Light is diffuse and gentle; no cinematic high-contrast chiaroscuro.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q07",
+    "section": "Palette and Light",
+    "prompt": "Specular highlights are selective (gilding, jewels, satin folds) not broadly metallic.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q08",
+    "section": "Palette and Light",
+    "prompt": "Overall tonal key is light-to-mid; not predominantly dark.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q09",
+    "section": "Motif Fidelity",
+    "prompt": "Floral motifs (roses, peonies, garlands) are present and stylistically coherent.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q10",
+    "section": "Motif Fidelity",
+    "prompt": "Putti, cherubs, or mythological figures (if present) match the Rococo playful-sweet register.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q11",
+    "section": "Motif Fidelity",
+    "prompt": "Architectural elements (boiserie, mirrors, stucco) show Rococo vocabulary, not Baroque or Neoclassical.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q12",
+    "section": "Motif Fidelity",
+    "prompt": "Furniture (if present) shows cabriole legs, bombé shapes, or gilded carved ornament.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q13",
+    "section": "Figure and Costume",
+    "prompt": "Figure proportions evoke Rococo elegance: small head, voluminous skirt/coat, delicate extremities.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q14",
+    "section": "Figure and Costume",
+    "prompt": "Costume includes at least one period marker: panniers, lace, silk ribbons, powdered wig, or tricorn hat.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q15",
+    "section": "Figure and Costume",
+    "prompt": "Figure gestures convey flirtation, leisure, or conversation — not heroic action.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q16",
+    "section": "Figure and Costume",
+    "prompt": "Hair and accessories extend the compositional rhythm and curve language.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q17",
+    "section": "Subject and Mood",
+    "prompt": "Subject is secular, intimate, and playful — fête galante, portrait, boudoir, or salon scene.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q18",
+    "section": "Subject and Mood",
+    "prompt": "Mood reads as elegant, playful, or lightly erotic — not solemn, religious, or austere.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q19",
+    "section": "Subject and Mood",
+    "prompt": "Setting reinforces Rococo world: park, salon, boudoir, garden pavilion, or ornamental interior.",
+    "score_range": [0, 2],
+    "critical_failure": false
+  },
+  {
+    "id": "q20",
+    "section": "Subject and Mood",
+    "prompt": "Overall piece reads as Rococo first, not generic vintage, fantasy, or Baroque.",
+    "score_range": [0, 2],
+    "critical_failure": true
+  }
+]

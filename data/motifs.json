@@ -1,0 +1,227 @@
+[
+  {
+    "id": "rocaille_shell_central",
+    "family": "rocaille",
+    "name": "Central shell crest",
+    "description": "Stylized scallop shell forming the dominant crest of a frame or mirror.",
+    "geometry_hint": ["C_curve", "fan", "radial_ridges"],
+    "placement_zones": ["mirror_crest", "overdoor_center", "panel_top", "furniture_crest"],
+    "cooccurring_tags": ["gilding", "rocaille_scatter_edge", "garland_floral", "scroll_C"]
+  },
+  {
+    "id": "rocaille_scatter_edge",
+    "family": "rocaille",
+    "name": "Edge shell fragments",
+    "description": "Small shell and rock fragments used at frame corners or along moldings.",
+    "geometry_hint": ["irregular_chip", "mini_fan", "pebble_cluster"],
+    "placement_zones": ["frame_corners", "dado_rail", "furniture_apron"],
+    "cooccurring_tags": ["scroll_C", "motif_leaf_acanthus", "gilding"]
+  },
+  {
+    "id": "rocaille_cartouche",
+    "family": "rocaille",
+    "name": "Rocaille cartouche",
+    "description": "Asymmetric scroll frame enclosing a title, crest, or small scene.",
+    "geometry_hint": ["asymmetric_oval", "scroll_border", "shell_base"],
+    "placement_zones": ["wall_panels", "book_frontispiece", "map_borders", "overdoor"],
+    "cooccurring_tags": ["scroll_S", "motif_garland_swag", "gilding"]
+  },
+  {
+    "id": "scroll_C",
+    "family": "rocaille",
+    "name": "C-scroll",
+    "description": "Single open C-shaped curve; fundamental building block of Rococo ornament.",
+    "geometry_hint": ["single_arc", "open_curl"],
+    "placement_zones": ["everywhere", "chair_rails", "mirror_sides", "furniture_aprons"],
+    "cooccurring_tags": ["scroll_S", "rocaille_shell_central", "motif_leaf_acanthus"]
+  },
+  {
+    "id": "scroll_S",
+    "family": "rocaille",
+    "name": "S-scroll",
+    "description": "Double reverse curve; spine of most Rococo ornamental flourishes.",
+    "geometry_hint": ["double_arc", "reverse_curl"],
+    "placement_zones": ["frame_borders", "furniture_legs", "stucco_bands"],
+    "cooccurring_tags": ["scroll_C", "motif_leaf_acanthus", "rocaille_cartouche"]
+  },
+  {
+    "id": "motif_flower_rose",
+    "family": "flora",
+    "name": "Rose bouquet",
+    "description": "Lush open roses in loose clusters with leaves; most common Rococo floral motif.",
+    "geometry_hint": ["radial_petals", "layered_bloom"],
+    "placement_zones": ["upholstery", "dress_fabric", "garland", "porcelain", "overdoor_panel"],
+    "cooccurring_tags": ["motif_garland_swag", "motif_flower_peony", "motif_leaf_acanthus"]
+  },
+  {
+    "id": "motif_flower_peony",
+    "family": "flora",
+    "name": "Peony cluster",
+    "description": "Full, billowing peony heads; associated with Chinoiserie-inflected Rococo.",
+    "geometry_hint": ["spherical_bloom", "dense_petal_layers"],
+    "placement_zones": ["wallpaper", "textile", "overdoor_panel", "ceramic"],
+    "cooccurring_tags": ["motif_flower_rose", "motif_vine_tendril", "motif_singerie_monkey"]
+  },
+  {
+    "id": "motif_garland_swag",
+    "family": "flora",
+    "name": "Floral garland swag",
+    "description": "Long festoon of flowers and leaves hung in an arc.",
+    "geometry_hint": ["catenary_arc", "dense_cluster_endpoints"],
+    "placement_zones": ["overdoors", "ceiling_borders", "tapestry_headers", "mirror_sides"],
+    "cooccurring_tags": ["motif_flower_rose", "motif_putti_cluster", "gilding"]
+  },
+  {
+    "id": "motif_leaf_acanthus",
+    "family": "flora",
+    "name": "Acanthus scroll",
+    "description": "Stylized acanthus leaf wrapping around shells and frames.",
+    "geometry_hint": ["lobed_leaf", "scroll_tip"],
+    "placement_zones": ["cornice", "furniture_legs", "stucco_ornament"],
+    "cooccurring_tags": ["scroll_C", "scroll_S", "rocaille_shell_central"]
+  },
+  {
+    "id": "motif_vine_tendril",
+    "family": "flora",
+    "name": "Trailing vine tendril",
+    "description": "Thin spiraling stems threading through ornament bands.",
+    "geometry_hint": ["thin_spiral", "open_helix"],
+    "placement_zones": ["textile_borders", "scroll_infill", "boiserie_panel_edges"],
+    "cooccurring_tags": ["motif_flower_rose", "motif_leaf_acanthus"]
+  },
+  {
+    "id": "motif_putti_cluster",
+    "family": "fauna",
+    "name": "Putti group",
+    "description": "Small winged infant figures playing, carrying garlands, or perched on frames.",
+    "geometry_hint": ["chubby_infant_figure", "wing_pair", "cloud_base"],
+    "placement_zones": ["ceilings", "overdoors", "altar_like_panels", "mantelpiece"],
+    "cooccurring_tags": ["motif_garland_swag", "motif_dove_pair", "cloud_billow"]
+  },
+  {
+    "id": "motif_dove_pair",
+    "family": "fauna",
+    "name": "Dove pair",
+    "description": "Two doves perched or in flight; symbol of love and harmony.",
+    "geometry_hint": ["small_bird_silhouette", "wing_spread"],
+    "placement_zones": ["boudoir_scenes", "garland_accents", "overdoor"],
+    "cooccurring_tags": ["motif_putti_cluster", "motif_flower_rose", "figure_mythological_venus"]
+  },
+  {
+    "id": "motif_dog_small",
+    "family": "fauna",
+    "name": "Lap dog",
+    "description": "Small breed dog (bichon, spaniel) as aristocratic accessory.",
+    "geometry_hint": ["small_animal_silhouette", "fluffy_coat"],
+    "placement_zones": ["boudoir_portraits", "salon_scenes", "fete_galante_foreground"],
+    "cooccurring_tags": ["figure_aristocratic_lady", "object_fan"]
+  },
+  {
+    "id": "motif_singerie_monkey",
+    "family": "fauna",
+    "name": "Monkey (singerie)",
+    "description": "Monkeys dressed as humans performing human activities; Chinoiserie-Rococo overlap.",
+    "geometry_hint": ["anthropomorphized_animal"],
+    "placement_zones": ["chinoiserie_panels", "wallpaper", "decorative_cabinetry"],
+    "cooccurring_tags": ["motif_flower_peony", "module_boiserie_panel"]
+  },
+  {
+    "id": "figure_aristocratic_lady",
+    "family": "figures",
+    "name": "Aristocratic lady",
+    "description": "Woman in robe à la française: panniers, lace, silk, powdered wig or elaborate coiffure.",
+    "geometry_hint": ["wide_pannier_silhouette", "small_head", "delicate_hands"],
+    "placement_zones": ["portraits", "fete_galante", "boudoir_scenes"],
+    "cooccurring_tags": ["costume_robe_francaise", "object_fan", "motif_dog_small"]
+  },
+  {
+    "id": "figure_aristocratic_gentleman",
+    "family": "figures",
+    "name": "Aristocratic gentleman",
+    "description": "Man in embroidered coat, breeches, tricorn or powdered wig.",
+    "geometry_hint": ["fitted_coat_silhouette", "breeches", "hat"],
+    "placement_zones": ["fete_galante", "salon_scenes", "double_portraits"],
+    "cooccurring_tags": ["costume_habit_a_la_francaise", "object_lute", "figure_aristocratic_lady"]
+  },
+  {
+    "id": "figure_mythological_venus",
+    "family": "figures",
+    "name": "Venus / love goddess",
+    "description": "Semi-draped female figure in mythological guise; softly erotic Rococo register.",
+    "geometry_hint": ["reclining_or_seated", "draped_silk", "soft_contours"],
+    "placement_zones": ["boudoir_paintings", "ceiling_frescoes", "overdoor_panels"],
+    "cooccurring_tags": ["motif_putti_cluster", "motif_dove_pair", "object_mirror_hand"]
+  },
+  {
+    "id": "module_boiserie_panel",
+    "family": "architecture",
+    "name": "Boiserie wall panel",
+    "description": "Carved and painted wood wall panel with scroll/shell ornament; defines Rococo salon walls.",
+    "geometry_hint": ["rectangular_panel", "rocaille_corner_ornament", "central_cartouche"],
+    "placement_zones": ["salon_walls", "boudoir_walls"],
+    "cooccurring_tags": ["module_overmantel_mirror", "gilding", "scroll_C", "scroll_S"]
+  },
+  {
+    "id": "module_overmantel_mirror",
+    "family": "architecture",
+    "name": "Overmantel mirror",
+    "description": "Tall gilded mirror above a fireplace with rocaille shell frame.",
+    "geometry_hint": ["tall_rectangle", "rocaille_crest", "gilded_frame"],
+    "placement_zones": ["salon", "drawing_room", "boudoir"],
+    "cooccurring_tags": ["module_boiserie_panel", "module_fireplace_rocaille", "rocaille_shell_central"]
+  },
+  {
+    "id": "module_chandelier_crystal",
+    "family": "architecture",
+    "name": "Crystal chandelier",
+    "description": "Multi-arm chandelier with rock crystal or glass pendants; defines Rococo salon space.",
+    "geometry_hint": ["branching_arms", "pendant_drops", "central_sphere"],
+    "placement_zones": ["salon_ceiling", "ballroom_ceiling"],
+    "cooccurring_tags": ["module_boiserie_panel", "module_ceiling_cartouche_oval"]
+  },
+  {
+    "id": "object_lute",
+    "family": "objects",
+    "name": "Lute",
+    "description": "Plucked string instrument; symbol of courtship, harmony, and aristocratic refinement.",
+    "geometry_hint": ["pear_body", "long_neck", "curved_pegbox"],
+    "placement_zones": ["fete_galante", "boudoir", "musical_still_life"],
+    "cooccurring_tags": ["figure_aristocratic_gentleman", "scene_fete_galante_park"]
+  },
+  {
+    "id": "object_fan",
+    "family": "objects",
+    "name": "Folded fan",
+    "description": "Aristocratic accessory and compositional element; encoded communication in Rococo etiquette.",
+    "geometry_hint": ["folded_arc", "painted_vellum", "lacquered_sticks"],
+    "placement_zones": ["figure_hand", "still_life", "boudoir_table"],
+    "cooccurring_tags": ["figure_aristocratic_lady", "object_mask_venetian"]
+  },
+  {
+    "id": "object_swing",
+    "family": "objects",
+    "name": "Garden swing",
+    "description": "Iconic Rococo motif (Fragonard); signals flirtation, leisure, and transgression.",
+    "geometry_hint": ["rope_arc", "seated_figure", "flying_dress"],
+    "placement_zones": ["fete_galante_park", "garden_scene"],
+    "cooccurring_tags": ["scene_fete_galante_park", "figure_aristocratic_lady", "motif_flower_rose"]
+  },
+  {
+    "id": "object_mask_venetian",
+    "family": "objects",
+    "name": "Venetian mask",
+    "description": "Masquerade mask; signals intrigue, theater, and playful transgression.",
+    "geometry_hint": ["half_face_oval", "painted_surface"],
+    "placement_zones": ["masquerade_scenes", "still_life", "boudoir_vanity"],
+    "cooccurring_tags": ["object_fan", "figure_commedia_dell_arte"]
+  },
+  {
+    "id": "object_porcelain_vase",
+    "family": "objects",
+    "name": "Porcelain vase",
+    "description": "Chinese-inspired or Meissen-style porcelain; luxury indicator in Rococo interiors.",
+    "geometry_hint": ["baluster_form", "painted_floral_panels", "gilded_mounts"],
+    "placement_zones": ["console_tables", "mantelpieces", "salon_shelves"],
+    "cooccurring_tags": ["module_boiserie_panel", "motif_flower_rose", "motif_singerie_monkey"]
+  }
+]
